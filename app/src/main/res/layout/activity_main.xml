@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+
+    <Button
+        android:id="@+id/rock_button"
+        android:text="@string/rock"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onRockButtonClicked"
+        />
+
+    <Button
+        android:id="@+id/paper_button"
+        android:text="@string/paper"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onPaperButtonClicked"
+    />
+
+    <Button
+        android:id="@+id/scissor_button"
+        android:text="@string/scissor"
+        android:layout_marginTop="75dp"
+        android:layout_marginLeft="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onScissorButtonClicked"
+        />
+
+    <TextView
+        android:id="@+id/winner_text"
+        android:layout_marginTop="100dp"
+        android:textSize="30dp"
+        android:text=""
+        android:layout_marginLeft="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
